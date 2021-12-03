@@ -1,0 +1,298 @@
+{
+  "get": "games",
+  "parameters": {
+    "league": "12",
+    "timezone": "America/Los_Angeles",
+    "date": "2021-11-02",
+    "season": "2021-2022"
+  },
+  "errors": [],
+  "results": 5,
+  "response": [
+    {
+      "id": 137330,
+      "date": "2021-11-02T16:00:00-07:00",
+      "time": "16:00",
+      "timestamp": 1635894000,
+      "timezone": "America/Los_Angeles",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "season": "2021-2022",
+        "logo": "https://media.api-sports.io/basketball/leagues/12.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 140,
+          "name": "Detroit Pistons",
+          "logo": "https://media.api-sports.io/basketball/teams/140.png"
+        },
+        "away": {
+          "id": 148,
+          "name": "Milwaukee Bucks",
+          "logo": "https://media.api-sports.io/basketball/teams/148.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 20,
+          "quarter_2": 19,
+          "quarter_3": 23,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 89
+        },
+        "away": {
+          "quarter_1": 27,
+          "quarter_2": 30,
+          "quarter_3": 33,
+          "quarter_4": 27,
+          "over_time": null,
+          "total": 117
+        }
+      }
+    },
+    {
+      "id": 137331,
+      "date": "2021-11-02T16:30:00-07:00",
+      "time": "16:30",
+      "timestamp": 1635895800,
+      "timezone": "America/Los_Angeles",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "season": "2021-2022",
+        "logo": "https://media.api-sports.io/basketball/leagues/12.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 138,
+          "name": "Dallas Mavericks",
+          "logo": "https://media.api-sports.io/basketball/teams/138.png"
+        },
+        "away": {
+          "id": 147,
+          "name": "Miami Heat",
+          "logo": "https://media.api-sports.io/basketball/teams/147.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 30,
+          "quarter_2": 32,
+          "quarter_3": 26,
+          "quarter_4": 22,
+          "over_time": null,
+          "total": 110
+        },
+        "away": {
+          "quarter_1": 24,
+          "quarter_2": 46,
+          "quarter_3": 29,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 125
+        }
+      }
+    },
+    {
+      "id": 137332,
+      "date": "2021-11-02T18:00:00-07:00",
+      "time": "18:00",
+      "timestamp": 1635901200,
+      "timezone": "America/Los_Angeles",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "season": "2021-2022",
+        "logo": "https://media.api-sports.io/basketball/leagues/12.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 160,
+          "name": "Utah Jazz",
+          "logo": "https://media.api-sports.io/basketball/teams/160.png"
+        },
+        "away": {
+          "id": 157,
+          "name": "Sacramento Kings",
+          "logo": "https://media.api-sports.io/basketball/teams/157.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 33,
+          "quarter_2": 25,
+          "quarter_3": 32,
+          "quarter_4": 29,
+          "over_time": null,
+          "total": 119
+        },
+        "away": {
+          "quarter_1": 29,
+          "quarter_2": 30,
+          "quarter_3": 28,
+          "quarter_4": 26,
+          "over_time": null,
+          "total": 113
+        }
+      }
+    },
+    {
+      "id": 137333,
+      "date": "2021-11-02T19:00:00-07:00",
+      "time": "19:00",
+      "timestamp": 1635904800,
+      "timezone": "America/Los_Angeles",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "season": "2021-2022",
+        "logo": "https://media.api-sports.io/basketball/leagues/12.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 155,
+          "name": "Phoenix Suns",
+          "logo": "https://media.api-sports.io/basketball/teams/155.png"
+        },
+        "away": {
+          "id": 150,
+          "name": "New Orleans Pelicans",
+          "logo": "https://media.api-sports.io/basketball/teams/150.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 22,
+          "quarter_2": 26,
+          "quarter_3": 28,
+          "quarter_4": 36,
+          "over_time": null,
+          "total": 112
+        },
+        "away": {
+          "quarter_1": 36,
+          "quarter_2": 23,
+          "quarter_3": 23,
+          "quarter_4": 18,
+          "over_time": null,
+          "total": 100
+        }
+      }
+    },
+    {
+      "id": 137334,
+      "date": "2021-11-02T19:30:00-07:00",
+      "time": "19:30",
+      "timestamp": 1635906600,
+      "timezone": "America/Los_Angeles",
+      "stage": null,
+      "week": null,
+      "status": {
+        "long": "Game Finished",
+        "short": "FT",
+        "timer": null
+      },
+      "league": {
+        "id": 12,
+        "name": "NBA",
+        "type": "League",
+        "season": "2021-2022",
+        "logo": "https://media.api-sports.io/basketball/leagues/12.png"
+      },
+      "country": {
+        "id": 5,
+        "name": "USA",
+        "code": "US",
+        "flag": "https://media.api-sports.io/flags/us.svg"
+      },
+      "teams": {
+        "home": {
+          "id": 145,
+          "name": "Los Angeles Lakers",
+          "logo": "https://media.api-sports.io/basketball/teams/145.png"
+        },
+        "away": {
+          "id": 142,
+          "name": "Houston Rockets",
+          "logo": "https://media.api-sports.io/basketball/teams/142.png"
+        }
+      },
+      "scores": {
+        "home": {
+          "quarter_1": 32,
+          "quarter_2": 32,
+          "quarter_3": 23,
+          "quarter_4": 32,
+          "over_time": null,
+          "total": 119
+        },
+        "away": {
+          "quarter_1": 35,
+          "quarter_2": 35,
+          "quarter_3": 19,
+          "quarter_4": 28,
+          "over_time": null,
+          "total": 117
+        }
+      }
+    }
+  ]
+}

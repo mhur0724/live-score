@@ -1,0 +1,56 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.live-games {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  max-width: 90rem;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 0 auto;
+}
+.game {
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 5px;
+  border-radius: 4px;
+  width: 40rem;
+  height: 15rem;
+  margin: 1rem;
+}
+
+.team {
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+}
+
+.team > * {
+  margin: 0.5rem;
+}
+
+.team-name {
+  font-size: 1.5rem;
+}
+.logo {
+  height: 4rem;
+}
+
+.score {
+  font-weight: 800;
+  font-size: 2rem;
+  width: 25rem;
+  text-align: center;
+}
