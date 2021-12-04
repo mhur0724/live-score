@@ -18,7 +18,7 @@
       "stage": null,
       "week": null,
       "status": {
-        "long": "Game Finished",
+        "long": "Not Started",
         "short": "FT",
         "timer": null
       },
@@ -75,7 +75,7 @@
       "stage": null,
       "week": null,
       "status": {
-        "long": "Game Finished",
+        "long": "After Over Time",
         "short": "FT",
         "timer": null
       },
@@ -132,7 +132,7 @@
       "stage": null,
       "week": null,
       "status": {
-        "long": "Game Finished",
+        "long": "Quarter 4",
         "short": "FT",
         "timer": null
       },
@@ -189,7 +189,7 @@
       "stage": null,
       "week": null,
       "status": {
-        "long": "Game Finished",
+        "long": "Halftime",
         "short": "FT",
         "timer": null
       },

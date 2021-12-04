@@ -9,7 +9,7 @@ if (date <= 9) {
 }
 
 let year = today.getFullYear();
-let month = today.getMonth();
+let month = today.getMonth() + 1;
 
 // Parameters
 let fullDate = `${year}-${month}-${date}`;
@@ -32,15 +32,21 @@ let timezone = "America/Los_Angeles";
 //   .catch((err) => console.log(err));
 let games = [];
 
-fetch("data.json", {
-  method: "GET",
-  headers: {
-    "x-rapidapi-host": "api-basketball.p.rapidapi.com",
-    "x-rapidapi-key": "c9bfc37e9fmshf134f4277b71718p11a766jsnc263c0972da5",
-  },
-})
+fetch(
+  // `https://api-basketball.p.rapidapi.com/games?timezone=America/Los_Angeles&season=${season}&league=12&date=${fullDate}`,
+  "data.json",
+
+  {
+    method: "GET",
+    headers: {
+      "x-rapidapi-host": "api-basketball.p.rapidapi.com",
+      "x-rapidapi-key": "c9bfc37e9fmshf134f4277b71718p11a766jsnc263c0972da5",
+    },
+  }
+)
   .then((response) => response.json())
   .then((data) => {
+    console.log(data);
     for (i in data.response) {
       createGame(data.response[i]);
     }
@@ -53,9 +59,12 @@ function createGame(response) {
   let teamAway = response.teams.away;
   let homeScore = response.scores.home.total;
   let awayScore = response.scores.away.total;
-  let gameDiv = document.createElement("div");
+  let gameStatus = response.status.long;
 
   // Create DOM elements
+  let gameDiv = document.createElement("div");
+  let homeTitle = document.createElement("h2");
+  let awayTitle = document.createElement("h2");
   // Home Team
   let teamHomeDiv = document.createElement("div");
   let teamHomeName = document.createElement("h2");
@@ -66,9 +75,14 @@ function createGame(response) {
   let teamAwayName = document.createElement("h2");
   let teamAwayLogo = document.createElement("img");
 
+  let gameInfoDiv = document.createElement("div");
+  let gameStatusP = document.createElement("p");
+
   let score = document.createElement("p");
 
   // Create DOM element content
+  homeTitle.innerHTML = "Home";
+  awayTitle.innerHTML = "Away";
   // Home Team
   teamHomeName.innerHTML = teamHome.name;
   teamHomeName.classList.add("team-name");
@@ -83,17 +97,49 @@ function createGame(response) {
 
   // Append content into DOM elements
   // Home Team
-  teamHomeDiv.append(teamHomeLogo, teamHomeName);
+  teamHomeDiv.append(homeTitle, teamHomeLogo, teamHomeName);
   teamHomeDiv.classList.add("team", "home");
   // Away Team
-  teamAwayDiv.append(teamAwayLogo, teamAwayName);
+  teamAwayDiv.append(awayTitle, teamAwayLogo, teamAwayName);
   teamAwayDiv.classList.add("team", "away");
 
-  score.innerHTML = `${homeScore} - ${awayScore}`;
+  gameStatusP.innerHTML = gameStatus;
+  gameStatusP.classList.add("game-status");
+  switch (gameStatus) {
+    case "Game Finished":
+      gameStatusP.classList.add("game-finished");
+      break;
+    case "Quarter 1":
+      gameStatusP.classList.add("game-live");
+      break;
+    case "Quarter 2":
+      gameStatusP.classList.add("game-live");
+      break;
+    case "Quarter 3":
+      gameStatusP.classList.add("game-live");
+      break;
+    case "Quarter 4":
+      gameStatusP.classList.add("game-live");
+      break;
+    case "Over Time":
+      gameStatusP.classList.add("game-live");
+      break;
+    case "Halftime":
+      gameStatusP.classList.add("game-live");
+      break;
+  }
+
+  if (gameStatus == "Not Started") {
+    score.innerHTML = "";
+  } else {
+    score.innerHTML = `${homeScore} - ${awayScore}`;
+  }
   score.classList.add("score");
+  gameInfoDiv.append(gameStatusP, score);
+  gameInfoDiv.classList.add("game-info");
 
   gameDiv.classList.add("game");
-  gameDiv.append(teamHomeDiv, score, teamAwayDiv);
+  gameDiv.append(teamHomeDiv, gameInfoDiv, teamAwayDiv);
 
   liveGames.appendChild(gameDiv);
 }
