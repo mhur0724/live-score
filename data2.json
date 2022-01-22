@@ -1,0 +1,198 @@
+{
+  "status": 200,
+  "message": "GET games/date/2021-12-03",
+  "results": 5,
+  "filters": ["seasonYear", "league", "gameId", "teamId", "date", "live"],
+  "games": [
+    {
+      "seasonYear": "2021",
+      "league": "standard",
+      "gameId": "9114",
+      "startTimeUTC": "2021-12-03T00:30:00.000Z",
+      "endTimeUTC": "2021-12-03T02:58:00.000Z",
+      "arena": "Madison Square Garden",
+      "city": "New York",
+      "country": "USA",
+      "clock": "",
+      "gameDuration": "2:16",
+      "currentPeriod": "4/4",
+      "halftime": "0",
+      "EndOfPeriod": "0",
+      "seasonStage": "2",
+      "statusShortGame": "3",
+      "statusGame": "Finished",
+      "vTeam": {
+        "teamId": "6",
+        "shortName": "CHI",
+        "fullName": "Chicago Bulls",
+        "nickName": "Bulls",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/d/d1/Bulls_de_Chicago_logo.svg/1200px-Bulls_de_Chicago_logo.svg.png",
+        "score": {
+          "points": "119"
+        }
+      },
+      "hTeam": {
+        "teamId": "24",
+        "shortName": "NYK",
+        "fullName": "New York Knicks",
+        "nickName": "Knicks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/d/dc/NY_Knicks_Logo_2011.png",
+        "score": {
+          "points": "115"
+        }
+      }
+    },
+    {
+      "seasonYear": "2021",
+      "league": "standard",
+      "gameId": "9115",
+      "startTimeUTC": "2021-12-03T00:30:00.000Z",
+      "endTimeUTC": "2021-12-03T03:00:00.000Z",
+      "arena": "Scotiabank Arena",
+      "city": "Toronto",
+      "country": "Canada",
+      "clock": "",
+      "gameDuration": "2:18",
+      "currentPeriod": "4/4",
+      "halftime": "0",
+      "EndOfPeriod": "0",
+      "seasonStage": "2",
+      "statusShortGame": "3",
+      "statusGame": "Finished",
+      "vTeam": {
+        "teamId": "21",
+        "shortName": "MIL",
+        "fullName": "Milwaukee Bucks",
+        "nickName": "Bucks",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/3/34/Bucks2015.png",
+        "score": {
+          "points": "93"
+        }
+      },
+      "hTeam": {
+        "teamId": "38",
+        "shortName": "TOR",
+        "fullName": "Toronto Raptors",
+        "nickName": "Raptors",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/8/89/Raptors2015.png",
+        "score": {
+          "points": "97"
+        }
+      }
+    },
+    {
+      "seasonYear": "2021",
+      "league": "standard",
+      "gameId": "9116",
+      "startTimeUTC": "2021-12-03T01:00:00.000Z",
+      "endTimeUTC": "2021-12-03T03:08:00.000Z",
+      "arena": "FedExForum",
+      "city": "Memphis",
+      "country": "USA",
+      "clock": "",
+      "gameDuration": "1:59",
+      "currentPeriod": "4/4",
+      "halftime": "0",
+      "EndOfPeriod": "0",
+      "seasonStage": "2",
+      "statusShortGame": "3",
+      "statusGame": "Finished",
+      "vTeam": {
+        "teamId": "25",
+        "shortName": "OKC",
+        "fullName": "Oklahoma City Thunder",
+        "nickName": "Thunder",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/thumb/4/4f/Thunder_d%27Oklahoma_City_logo.svg/1200px-Thunder_d%27Oklahoma_City_logo.svg.png",
+        "score": {
+          "points": "79"
+        }
+      },
+      "hTeam": {
+        "teamId": "19",
+        "shortName": "MEM",
+        "fullName": "Memphis Grizzlies",
+        "nickName": "Grizzlies",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/f/f1/Memphis_Grizzlies.svg/1200px-Memphis_Grizzlies.svg.png",
+        "score": {
+          "points": "152"
+        }
+      }
+    },
+    {
+      "seasonYear": "2021",
+      "league": "standard",
+      "gameId": "9117",
+      "startTimeUTC": "2021-12-03T02:00:00.000Z",
+      "endTimeUTC": "2021-12-03T04:20:00.000Z",
+      "arena": "Footprint Center",
+      "city": "Phoenix",
+      "country": "USA",
+      "clock": "",
+      "gameDuration": "2:10",
+      "currentPeriod": "4/4",
+      "halftime": "0",
+      "EndOfPeriod": "0",
+      "seasonStage": "2",
+      "statusShortGame": "3",
+      "statusGame": "Finished",
+      "vTeam": {
+        "teamId": "10",
+        "shortName": "DET",
+        "fullName": "Detroit Pistons",
+        "nickName": "Pistons",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Detroit_Pistons_primary_logo_2017.png/150px-Detroit_Pistons_primary_logo_2017.png",
+        "score": {
+          "points": "103"
+        }
+      },
+      "hTeam": {
+        "teamId": "28",
+        "shortName": "PHX",
+        "fullName": "Phoenix Suns",
+        "nickName": "Suns",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/5/56/Phoenix_Suns_2013.png",
+        "score": {
+          "points": "114"
+        }
+      }
+    },
+    {
+      "seasonYear": "2021",
+      "league": "standard",
+      "gameId": "9118",
+      "startTimeUTC": "2021-12-03T03:00:00.000Z",
+      "endTimeUTC": "2021-12-03T05:16:00.000Z",
+      "arena": "Moda Center",
+      "city": "Portland",
+      "country": "USA",
+      "clock": "",
+      "gameDuration": "2:03",
+      "currentPeriod": "4/4",
+      "halftime": "0",
+      "EndOfPeriod": "0",
+      "seasonStage": "2",
+      "statusShortGame": "3",
+      "statusGame": "Finished",
+      "vTeam": {
+        "teamId": "31",
+        "shortName": "SAS",
+        "fullName": "San Antonio Spurs",
+        "nickName": "Spurs",
+        "logo": "https://upload.wikimedia.org/wikipedia/fr/0/0e/San_Antonio_Spurs_2018.png",
+        "score": {
+          "points": "114"
+        }
+      },
+      "hTeam": {
+        "teamId": "29",
+        "shortName": "POR",
+        "fullName": "Portland Trail Blazers",
+        "nickName": "Trail Blazers",
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Portland_Trail_Blazers_logo.svg/1200px-Portland_Trail_Blazers_logo.svg.png",
+        "score": {
+          "points": "83"
+        }
+      }
+    }
+  ]
+}

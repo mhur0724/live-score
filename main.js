@@ -7,7 +7,7 @@ let date = today.getDate();
 if (date <= 9) {
   date = `0` + date;
 }
-
+date = 05;
 let year = today.getFullYear();
 let month = today.getMonth() + 1;
 
@@ -142,4 +142,11 @@ function createGame(response) {
   gameDiv.append(teamHomeDiv, gameInfoDiv, teamAwayDiv);
 
   liveGames.appendChild(gameDiv);
+}
+
+function createTeams(response) {
+  let teamHome = response.teams.home;
+  let teamAway = response.teams.away;
+  let homeScore = response.scores.home.total;
+  let awayScore = response.scores.away.total;
 }
